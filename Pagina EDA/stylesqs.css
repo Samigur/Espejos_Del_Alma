@@ -1,0 +1,109 @@
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif; /* Fuente para el texto normal */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar todos los textos */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fffbf0;
+}
+
+.logo img {
+    height: 100px;
+}
+
+h1 {
+    color: #111111;
+    margin: 0;
+    font-family: "Poppins", sans-serif; /* Fuente para el título */
+    
+}
+
+.button-container button {
+    background-color: #fffbf0;
+    color: #fd5558;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box {
+    background-color: #fffbf0; /* Color de fondo para los cuadros */
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px;
+    flex: 1; /* Para que los cuadros sean del mismo tamaño */
+    text-align: center; /* Centrar el texto dentro de los cuadros */
+    
+}
+
+.event-container {
+    background-color:#fffbf0; /* Color de fondo para la sección de eventos */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: left; /* Centrar el texto dentro de la sección de eventos */
+}
+
+h2 {
+    color: #f98181;
+    font-family: "Poppins", sans-serif; /* Fuente para los subtítulos */
+}
+
+
+.image-container {
+    text-align: center; /* Centra las imágenes */
+  }
+  
+  .image-container img {
+    display: inline-block; /* Muestra las imágenes en línea */
+    margin: 1px; /* Agrega un margen entre las imágenes */
+    width: 220px; /* Ancho de cada imagen, ajusta según sea necesario */
+    height: 270px; /* Alto automático para mantener la proporción */
+  }
+
+.additional-info {
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbf0;
+    padding: 10px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 50px; /* Ajusta el tamaño de los iconos */
+    height: auto;
+}
+
+.footer-right {
+    text-align: right;
+}
